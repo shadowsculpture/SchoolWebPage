@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University Website Design - Easy Tutorials</title>
+        <link rel="stylesheet" href="webdesign.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body >
+        <section class="sub-header">
+         <nav>
+             <a href="wbedesign.html"><img src="sanky.jpg"> </a>
+             <div class="nav-links" id="navLinks" >
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                 <ul>
+                    <li><a href="wbedesign.html">HOME</a> </li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="course.html">COURSE</a> </li>
+                    <li><a href="blog.html">BLOG</a> </li>
+                    <li><a href="contact.html">CONTACT</a> </li>
+                 </ul>
+
+             </div>
+             <i class="fa fa-bars" onclick="showMenu()" ></i>
+         </nav>   
+      
+         <h1>Our Certificate & Online Programs For 2022 </h1>
+        </section>
+
+       <!---------------blog page ocntent---------->
+
+       <section class="blog-content">
+
+        <div class="row">
+            <div class="blog-left">
+                <img src="cetification.jpg" >
+                <h1>Our Certificate & Online Programs For 2022 </h1>
+                <p>Kellogg’s world-renowned faculty members have created a full complement of executive education programs to meet the professional development goals of the entire leadership team from high potential managers primed for career advancement to seasoned C-suite executives seeking new insight into today’s complex challenges.</p>
+                <br>
+                <p>Broad-based programs incorporate simulations, experiential activities and case studies to help leaders realize their full potential. Other more focused programs explore leading innovation, developing talent and empowering people, inspiring collaboration and teamwork, mastering the art and science of negotiation and leveraging data analytics for better decision making. </p>
+                <br>
+                <p>The Kellogg Executive Development Program transforms organizational leaders. It equips top-performing, mid-level to senior managers to make decisions and take strategic action based upon both traditional and innovative business practices. Participants build skills and awareness as they realize their potential for assuming general management roles.</p>
+
+                <div class="comment-box">
+                   <h3>Leave a Comment</h3> 
+
+                   <form class="comment-form">
+                    <input type="text" placeholder="Enter your name">
+                    <input type="email" placeholder="Enter your email">
+                    <textarea  rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                   </form>
+                </div>
+            </div>
+            <div class="blog-right">
+               <h3>Post Catogries</h3>
+               <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+               </div> 
+
+               <div>
+                <span>Data Science</span>
+                <span>28</span>
+               </div> 
+
+               <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+               </div> 
+
+               <div>
+                <span>Computer Science</span>
+                <span>34</span>
+               </div> 
+
+               <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+               </div> 
+
+               <div>
+                <span>Journalism</span>
+                <span>22</span>
+               </div> 
+
+               <div>
+                <span>Commerce</span>
+                <span>30</span>
+               </div> 
+            </div>
+        </div>
+       </section>
+        
+        
+        <!--------------Footer------------>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsem dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est <br> sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit</p>
+             <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i> 
+             </div>
+             
+        </section>
+         
+         
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+      
+    </body>
+</html>
